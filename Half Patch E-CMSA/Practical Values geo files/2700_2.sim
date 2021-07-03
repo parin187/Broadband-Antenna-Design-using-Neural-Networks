@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<ZlsDoc type="SimOptimParameters xml file" version="2.0" copyright="Zeland Software, Inc." >
+<SimOptimParameters  SimType="1" Comment="" ProcessPriority="4" SaveNetPort="0" WriteOrAppend="0" AppendLog="0" FileBase="E:\BE PROJECT - 2\Practical Values geo files\2700_2" AfterSetup="0" Wait="1" job_priority="2" OutputDir="output" Reserved1="94.30049999900001" sim_version="11.1" >
+<!-- SimOptimParameters base type begin -->
+<MeshingParametersBase ereff="1" fmax="4.1" ncells="12" fast="0" fast_factor="4" fast_junction_ext="1" fast_min_unknowns="100" fast_min_distance="0.7" fast_max_cos_dir="-0.5" fast_save_gf_data="1" fast_extension="0" fast_divide_big_groups="0" fast_fewer_unknowns="0" warning_limit="5000" aec="0" aec_level="0" aec_ratio="0.1" multi_aec_ratio="0.4" meshing_optim="0" detect_overlapping="1" meshing_scheme="0" align_meshing="4" max_layer_distance="0.0005" cmax_regular="6.093342642276424" refined_ratio="0.2" rectanglizations="3" merge_polygons="0" option_2d="0" option_3d="0" remove_vs="0" remove_vs_ratio1="0.3" remove_vs_ratio2="0.03" remove_vs_angle="0.2617993877991494" >
+</MeshingParametersBase>
+<!-- SimOptimParameters base type end -->
+<PrintOptionStruct id="print_option" print_geosim="1" print_error="1" print_variables="1" print_designsim="1" >
+</PrintOptionStruct>
+<MatrixSolverParameters Type="5" FMS2SMS="500" Gems1="15000" Gems2="40000" Gems_Fullness="0.05" Gems_Option="0" SeparationDistanceInCells="10" SD_z2z_nc="5" SD_n2n_nc="12" SD_g2g_far_nc="5" SeparationDistance="60.93342642276424" SD_z2z="30.46671321138212" SD_n2n="73.12011170731708" SD_g2g_far="30.46671321138212" SD_no_update="0" Processors="0" AbsoluteEps="0" RelativeEps="0.001" SecondRelativeEpsr="0.001" NumberOfIterations="100" BufferSize="1" NumberOfExternFiles="5" DroppingCriteria="0.0004" MinimumUnknowns="1000" AlternativeType="5" />
+<AccuracyControllParameters ptype="3" pformat="1" epsr_2d="3e-005" epsa_2d="3e-005" epsr_3d="0.0001" epsa_3d="0.0001" max_lambda="1000000" eps_thin_images="0.0001" eps_far_images="0.0001" max_factor="2.5" extract_factor="0.2" far_factor="0.5" max_images="500000" max_pts="12" max_pts_inc_for_st="1" max_pts_inc_for_nr="1" rate_pts="2.5" ratio_next="1.5" insert_points="3" >
+<ValueList id="AccuracyControls">6,12,5,8,3,5,4</ValueList>
+</AccuracyControllParameters>
+<AdaptiveIntellifit Enabled="0" LargeValueEps="0.005" SmallValueEps="0.2" />
+<AfterSimOptions InvokeModua="1" Keep_Open="0" />
+<PatternParameters Enabled="0" ImagesAlongX="1" ImagesAlongY="1" EnforceConservation="1" >
+<AngleArray id="angle_array" >
+<ValueList id="phi_array">0,10,20,29.999999999999996,40,50,59.999999999999993,70,80,90,100,109.99999999999999,119.99999999999999,130,140,149.99999999999997,160,170,180,190,200,210.00000000000003,219.99999999999997,230,239.99999999999997,250.00000000000003,260,270,280,290,299.99999999999994,310,320,330.00000000000006,340,350,360</ValueList>
+<ValueList id="theta_array">0,5,10,14.999999999999998,20,25,29.999999999999996,35,40,45,50,54.999999999999993,59.999999999999993,65,70,74.999999999999986,80,85,90,95,100,105.00000000000001,109.99999999999999,115,119.99999999999999,125.00000000000001,130,135,140,145,149.99999999999997,155,160,165.00000000000003,170,175,180</ValueList>
+</AngleArray>
+</PatternParameters>
+<CoordinateTransforms id="rotations" m_1st_phi="0" m_1st_theta="0" m_2nd_phi="0" xoffset="0" yoffset="0" zoffset="0" >
+</CoordinateTransforms>
+<SecondGround id="second_ground" m_2nd_ground="0" epsr="1" mur="1" sigma="1000" height="1500" >
+</SecondGround>
+<ExcitationArray id="excite_array" ports="1" planewave="0" source="1" connect="0" connect_file="" >
+<ObjList id="this">
+<Excitation zc="50" re_zi="50" im_zi="0" magnitude="1" phase="0" >
+</Excitation>
+</ObjList>
+</ExcitationArray>
+<CurrentParameters Enabled="0" />
+<SParametersForFastEMOption Enabled="0" />
+<NearFieldParameters Enabled="0" >
+<NearFieldCalculationParameters id="NearFieldPoints" file_index="0" >
+<IntegerSingleArray id="freq_indices" >
+</IntegerSingleArray>
+<DoubleAndTwoIndicesSingleArray id="xa" eps="1e-007" >
+</DoubleAndTwoIndicesSingleArray>
+<DoubleAndTwoIndicesSingleArray id="ya" eps="1e-007" >
+</DoubleAndTwoIndicesSingleArray>
+<DoubleAndTwoIndicesSingleArray id="za" eps="1e-007" >
+</DoubleAndTwoIndicesSingleArray>
+</NearFieldCalculationParameters>
+</NearFieldParameters>
+<EquivalentModels type="0" >
+</EquivalentModels>
+<ValueList id="FrequencyParameters">2,2.0833333333300001,2.1666666666599999,2.24999999999,2.3333333333200001,2.4166666666499999,2.49999999998,2.5833333333099997,2.6666666666399998,2.74999999997,2.8333333332999997,2.9166666666299998,2.99999999996,3.0833333332899997,3.1666666666199998,3.24999999995,3.3333333332799997,3.4166666666099998,3.49999999994,3.5833333332699997,3.6666666665999998,3.74999999993,3.8333333332599997,3.9166666665899998,3.99999999992</ValueList>
+<OptimVariables id="opt" name_convention="1" >
+</OptimVariables>
+<IndexedParameterOutput>
+<IndexedParameterArray id="ipa" >
+</IndexedParameterArray>
+</IndexedParameterOutput>
+<RFSpiceParameters Enabled="0" />
+<FastEmParametersBase eps_fitting="0.02" min_weight="0.1" min_run_pts="1" max_run_pts="1" check_pts_max="1000000" symmetry="1" />
+</SimOptimParameters>
+</ZlsDoc>

@@ -1,0 +1,54 @@
+
+ ************************************************
+ *                                              *
+ *   IE3D Electromagnetic Simulator for Win32   *
+ *             Special Flow Edition             *
+ *                                              *
+ *                 Version 12.28                *
+ *                                              *
+ *           Serial Number: 0000000000708           *
+ *                                              *
+ * (C)Copyright 1993-2007, Zeland Software, Inc.*
+ *              All Rights Reserved             *
+ *                                              *
+ ************************************************
+
+ Maximum allowed CPU usage number is 1
+
+
+ This program is licensed to:
+   Evaluators  
+
+ Simulation geometry: E:\BE PROJECT - 2\U-CMSA\Practical Values\900_2.geo
+ The simulation started at: Thu Apr 22 18:57:09 2021
+
+   Meshing Performed Using Classical Scheme with Parameters: 
+   Fmax=2.4 GHz, Ncells=10, AEC=0, AEC Ratio=(0.1, 0.4), AEC Level=0
+ 
+   Ports=1, Cells/Volumes/Unknowns=738/0/1078, Min 10 MB RAM for SMSa
+   FASTA Informaton: N/A
+
+  No.1/21 Freq = 0.7 (GHz):    Cells/Volumes/Unknowns: 738/0/1078, SMSa: 50.05%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (2 sec)
+  No.2/21 Freq = 1.2 (GHz):    Cells/Volumes/Unknowns: 738/0/1078, SMSa: 50.05%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (4 sec)
+  No.3/21 Freq = 0.95 (GHz):    Cells/Volumes/Unknowns: 738/0/1078, SMSa: 50.05%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (5 sec)
+  No.4/21 Freq = 0.825 (GHz):    Cells/Volumes/Unknowns: 738/0/1078, SMSa: 50.05%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (7 sec)
+    Large Value Max Residual = 2.80674 (0.005) at 0.75 GHz
+  No.5/21 Freq = 0.75 (GHz):    Cells/Volumes/Unknowns: 738/0/1078, SMSa: 50.05%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (9 sec)
+    Large Value Max Residual = 2.21723 (0.005) at 0.725 GHz
+  No.6/21 Freq =   1 (GHz):    Cells/Volumes/Unknowns: 738/0/1078, SMSa: 50.05%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (10 sec)
+    Large Value Max Residual = 2.21112 (0.005) at 0.975 GHz
+  No.7/21 Freq = 0.975 (GHz):    Cells/Volumes/Unknowns: 738/0/1078, SMSa: 50.05%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (12 sec)
+    Large Value Max Residual = 0.0544115 (0.005) at 0.9 GHz
+  No.8/21 Freq = 0.9 (GHz):    Cells/Volumes/Unknowns: 738/0/1078, SMSa: 50.05%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (14 sec)
+
+ The simulation is finished at Thu Apr 22 18:57:23 2021 successfully!
+ Total simulation time is 14 seconds.
+ The s-parameter data is saved in: E:\BE PROJECT - 2\U-CMSA\Practical Values\output\900_2.sp

@@ -1,0 +1,74 @@
+
+ ************************************************
+ *                                              *
+ *   IE3D Electromagnetic Simulator for Win32   *
+ *             Special Flow Edition             *
+ *                                              *
+ *                 Version 12.28                *
+ *                                              *
+ *           Serial Number: 0000000000708           *
+ *                                              *
+ * (C)Copyright 1993-2007, Zeland Software, Inc.*
+ *              All Rights Reserved             *
+ *                                              *
+ ************************************************
+
+ Maximum allowed CPU usage number is 1
+
+
+ This program is licensed to:
+   Evaluators  
+
+ Simulation geometry: E:\BE PROJECT - 2\Training 3600-5000\4000_2_training.geo
+ The simulation started at: Sun Jan 17 13:58:19 2021
+
+   Meshing Performed Using Classical Scheme with Parameters: 
+   Fmax=5.3 GHz, Ncells=15, AEC=0, AEC Ratio=(0.1, 0.4), AEC Level=0
+ 
+   Ports=1, Cells/Volumes/Unknowns=181/0/267, Min 1 MB RAM for SMSa
+   FASTA Informaton: N/A
+
+  No.1/20 Freq = 3.2 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (1 sec)
+  No.2/20 Freq = 3.30526316 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (1 sec)
+  No.3/20 Freq = 3.41052632 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (1 sec)
+  No.4/20 Freq = 3.51578947 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (1 sec)
+  No.5/20 Freq = 3.62105263 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (2 sec)
+  No.6/20 Freq = 3.72631579 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (2 sec)
+  No.7/20 Freq = 3.83157895 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (2 sec)
+  No.8/20 Freq = 3.93684211 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (2 sec)
+  No.9/20 Freq = 4.04210526 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (3 sec)
+  No.10/20 Freq = 4.14736842 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (3 sec)
+  No.11/20 Freq = 4.25263158 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (3 sec)
+  No.12/20 Freq = 4.35789474 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (3 sec)
+  No.13/20 Freq = 4.46315789 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (4 sec)
+  No.14/20 Freq = 4.56842105 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (4 sec)
+  No.15/20 Freq = 4.67368421 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (4 sec)
+  No.16/20 Freq = 4.77894737 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (4 sec)
+  No.17/20 Freq = 4.88421053 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (4 sec)
+  No.18/20 Freq = 4.98947368 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (5 sec)
+  No.19/20 Freq = 5.09473684 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (5 sec)
+  No.20/20 Freq = 5.2 (GHz):    Cells/Volumes/Unknowns: 181/0/267, SMSa: 50.19%
+    Filling matrix:  0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%  Solving Matrix... (5 sec)
+
+ The simulation is finished at Sun Jan 17 13:58:24 2021 successfully!
+ Total simulation time is 5 seconds.
+ The s-parameter data is saved in: E:\BE PROJECT - 2\Training 3600-5000\output\4000_2_training.sp
